@@ -1,0 +1,76 @@
+const Watchlist = [
+  {
+    id: 1,
+    title: 'Love you as the World Ends',
+    cover: require('../../assets/images/covers/2.png'),
+    preview: require('../../assets/images/previews/preview-1.jpeg'),
+    description:
+      "A car mechanic fights to survive an invasion of the living dead while holding onto the hope that he'll be reunited with the woman he loves. Starring:Ryoma Takeuchi, Ayami Nakajo, Sho Kasamatsu. Watch all you want.",
+    casts: 'Ryoma Takeuchi, Ayami Nakajo, etc',
+    director: 'Shintaro Sugawara',
+    rating: '16+',
+    duration: '1j 58m',
+    release: '2021',
+    type: 'Film',
+  },
+  {
+    id: 2,
+    title: 'The Tinder Swindler',
+    cover: require('../../assets/images/covers/1.png'),
+    preview: require('../../assets/images/previews/preview-2.jpeg'),
+    description:
+      'Leviev, aka the Tinder Swindler, went live on Instagram on Monday to answer questions about the movie, his lifestyle, accusations against him and his future plans. In case you forgot, Leviev is the con man accused of coercing more than $10 million from women worldwide using the dating app Tinder.',
+    casts: 'Simon Leviev, Ayleen Charlotte, etc',
+    director: 'Felicity Morris',
+    rating: '16+',
+    duration: '1j 20m',
+    release: '2022',
+    type: 'Documenter',
+  },
+  {
+    id: 3,
+    title: 'Forecasting Love & Weather',
+    cover: require('../../assets/images/covers/3.png'),
+    preview: require('../../assets/images/previews/preview-3.jpeg'),
+    description:
+      'The story chronicles the romance between two people working at a weather forecasting agency. In February, the lovers of K-dramas were spoilt for choice as three Korean shows released on Netflix in one week; two actually came out on the same day.',
+    casts: 'Park Min-young, Song Kang, Yoon Park, and Yura',
+    director: 'Cha Young-hoon',
+    rating: '16+',
+    duration: '7j 40m',
+    release: '2022',
+    top: 6,
+    type: 'Series',
+  },
+  {
+    id: 4,
+    title: 'AI Love you',
+    cover: require('../../assets/images/covers/4.png'),
+    preview: require('../../assets/images/previews/preview-4.jpeg'),
+    description:
+      'A modern love story set in the near future where an AI building is powered by human feelings. Due to a software glitch, it falls in love with a real girl, escapes the building into the body of a real man, and tries to win her affections.',
+    casts: 'Mario MaurerPimchanok, LuevisadpaibulSahajak, Boonthanakit',
+    director: 'David Asavanond, Stephan Zlotescu',
+    rating: '16+',
+    duration: '1j 48m',
+    release: '2021',
+    type: 'Film',
+  },
+  {
+    id: 5,
+    title: 'Fishbowl Wives',
+    cover: require('../../assets/images/covers/5.png'),
+    preview: require('../../assets/images/previews/preview-5.jpeg'),
+    description:
+      'Fishbowl Wives is about lust, about couples breaking out of their marriage and dealing with infidelity in their way. Six wives go through something similar, and there is one thing that connects them—taking care of a goldfish. The series begins with an intimate scene, hinting at where the story is headed.',
+    casts: 'Ryôko Shinohara, Masanobu Andô, Takanori Iwata',
+    director: 'Felicity Morris',
+    rating: '16+',
+    duration: '10j 30m',
+    release: '2020',
+    top: 8,
+    type: 'Series',
+  },
+];
+
+export default Watchlist;
